@@ -44,6 +44,9 @@ const Signin: React.FC = () => {
 
         // console.error(error);
       });
+  }
+
+  const navigation = useNavigation();
   return (
     <View>
       <Hooks />
